@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valuators", "Valuators.csproj", "{8B256261-CE8A-4297-B238-D3DBCC76CA60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B256261-CE8A-4297-B238-D3DBCC76CA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B256261-CE8A-4297-B238-D3DBCC76CA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B256261-CE8A-4297-B238-D3DBCC76CA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B256261-CE8A-4297-B238-D3DBCC76CA60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A64DD21-2B17-4EB1-8344-2B1EED817CA5}
+	EndGlobalSection
+EndGlobal
