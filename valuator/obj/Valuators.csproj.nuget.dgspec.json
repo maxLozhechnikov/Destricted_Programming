@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj": {}
+    "C:\\RP\\valuator\\Valuators.csproj": {}
   },
   "projects": {
-    "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj": {
+    "C:\\RP\\valuator\\Valuators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj",
+        "projectUniqueName": "C:\\RP\\valuator\\Valuators.csproj",
         "projectName": "Valuators",
-        "projectPath": "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj",
+        "projectPath": "C:\\RP\\valuator\\Valuators.csproj",
         "packagesPath": "C:\\Users\\max28\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\max28\\source\\repos\\valuator\\obj\\",
+        "outputPath": "C:\\RP\\valuator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\max28\\AppData\\Roaming\\NuGet\\NuGet.Config",

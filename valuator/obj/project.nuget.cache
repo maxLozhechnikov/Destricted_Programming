@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VcjjPe4emf7ePbEwKJPmHDO2ApyYK5tpGKwPNSHYH9jg2L1CMA+YuxpRofYlWgElupKxdg9H8NiFKGMBP0Q3vw==",
+  "dgSpecHash": "rePWg+rTX9uOxWqTc+YxR7XObMEoajcRpq6QxEo4LjPey1pcL7C0pK+7ZfuG+rknHKOW5QX90eyCFmnxbmzjVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj",
+  "projectFilePath": "C:\\RP\\valuator\\Valuators.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\max28\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\max28\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
