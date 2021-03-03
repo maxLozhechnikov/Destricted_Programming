@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
 using DBVAL;
+using Valuators;
 
 namespace Valuator.Pages
 {
     public class IndexModel : PageModel
     {
+
         private readonly ILogger<IndexModel> _logger;
         private readonly IStorage _storage;
 
@@ -35,13 +37,14 @@ namespace Valuator.Pages
             }
 
             string id = Guid.NewGuid().ToString();
-            string textKey = "TEXT-" + id;
-            string rankKey = "RANK-" + id;
-            string similarityKey = "SIMILARITY-" + id;
+            string textKey = Constants.Text + id;
+            string rankKey = Constants.Rank + id;
+            string similarityKey = Constants.Simil + id;
 
-            int similarity = GetSimilarity(text);
+            double similarity = GetSimilarity(text);
             double rank = GetRank(text);
 
+            _storage.PutText(text);
             _storage.Put(textKey, text);
             _storage.Put(similarityKey, similarity.ToString());
             _storage.Put(rankKey, rank.ToString());
@@ -62,7 +65,7 @@ namespace Valuator.Pages
 
             return Math.Round(Convert.ToDouble(nonAlphaCount) / Convert.ToDouble(text.Length), 2);
         }
-        private int GetSimilarity(string text)
+        private double GetSimilarity(string text)
         {
             return _storage.HasTextDuplicate(text) ? 1 : 0;
         }
