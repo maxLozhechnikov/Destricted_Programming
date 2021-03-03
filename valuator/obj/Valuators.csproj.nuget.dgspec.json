@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj": {}
+    "C:\\Destricted_Programming\\valuator\\Valuators.csproj": {}
   },
   "projects": {
-    "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj": {
+    "C:\\Destricted_Programming\\valuator\\Valuators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj",
+        "projectUniqueName": "C:\\Destricted_Programming\\valuator\\Valuators.csproj",
         "projectName": "Valuators",
-        "projectPath": "C:\\Users\\max28\\source\\repos\\valuator\\Valuators.csproj",
-        "packagesPath": "C:\\Users\\max28\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\max28\\source\\repos\\valuator\\obj\\",
+        "projectPath": "C:\\Destricted_Programming\\valuator\\Valuators.csproj",
+        "packagesPath": "C:\\Users\\Maxx\\.nuget\\packages\\",
+        "outputPath": "C:\\Destricted_Programming\\valuator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\max28\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxx\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

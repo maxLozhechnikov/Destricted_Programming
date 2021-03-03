@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
 using DBVAL;
+using Valuators;
 
 namespace Valuator.Pages
 {
@@ -29,8 +30,8 @@ namespace Valuator.Pages
             _logger.LogDebug(id);
 
             //DONE: проинициализировать свойства Rank и Similarity сохранёнными в БД значениями
-            Rank = Convert.ToDouble(_storage.Get("RANK-" + id));
-            Similarity = Convert.ToDouble(_storage.Get("SIMILARITY-" + id));
+            Rank = Convert.ToDouble(_storage.Get(Constants.Rank + id));
+            Similarity = Convert.ToDouble(_storage.Get(Constants.Simil + id));
             //DONE: проинициализировать свойства Rank и Similarity сохранёнными в БД значениями
         }
     }
