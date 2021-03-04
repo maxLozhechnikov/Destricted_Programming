@@ -1,2 +1,2 @@
-taskkill /f /im valuator.exe
+taskkill /f /im Valuators.exe
 taskkill /f /im nginx.exe
